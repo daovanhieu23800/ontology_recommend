@@ -1,0 +1,57 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/thuha/topic-onto/"
+     xml:base="http://www.semanticweb.org/thuha/topic-onto/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:topic-onto="http://www.semanticweb.org/thuha/topic-onto#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/thuha/topic-onto"/>
+
+    
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/thuha/topic-onto#topic0">
+        <rdf:type rdf:resource="http://www.semanticweb.org/thuha/topic-onto#Topic"/>
+        <topic-onto:topicID>Matrices and linear algebra fundamentals</topic-onto:topicID>
+		<topic-onto:link>K-Means Clustering</topic-onto:link>
+		<topic-onto:link>Data mining</topic-onto:link>
+	</owl:NamedIndividual>
+
+
+    
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/thuha/topic-onto#topic1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/thuha/topic-onto#Topic"/>
+        <topic-onto:topicID>Data mining</topic-onto:topicID>
+		<topic-onto:link>Machine Learning</topic-onto:link>
+	</owl:NamedIndividual>
+
+    
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/thuha/topic-onto#topic2">
+        <rdf:type rdf:resource="http://www.semanticweb.org/thuha/topic-onto#Topic"/>
+        <topic-onto:topicID>K-Means Clustering</topic-onto:topicID>
+		<topic-onto:link>DBSCAN</topic-onto:link>
+	</owl:NamedIndividual>
+
+    
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/thuha/topic-onto#topic3">
+        <rdf:type rdf:resource="http://www.semanticweb.org/thuha/topic-onto#Topic"/>
+        <topic-onto:topicID>DBSCAN</topic-onto:topicID>
+		<topic-onto:link>HDBSCAN</topic-onto:link>
+	</owl:NamedIndividual>
+
+    
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/thuha/topic-onto#topic4">
+        <rdf:type rdf:resource="http://www.semanticweb.org/thuha/topic-onto#Topic"/>
+        <topic-onto:topicID>HDBSCAN</topic-onto:topicID>
+		<topic-onto:link>Machine Learning</topic-onto:link>
+	</owl:NamedIndividual>
+
+
+    
+    <!-- index of adding -->
+</rdf:RDF>
+

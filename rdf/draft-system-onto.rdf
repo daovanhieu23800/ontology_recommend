@@ -1,0 +1,548 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/thuha/ontologies/system-ontology/"
+     xml:base="http://www.semanticweb.org/thuha/ontologies/system-ontology/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:system-ontology="http://www.semanticweb.org/thuha/ontologies/system-ontology#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/thuha/ontologies/system-ontology"/>
+
+    
+    
+    
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/thuha/ontologies/system-ontology#learner-l0">
+        <rdf:type rdf:resource="http://www.semanticweb.org/thuha/ontologies/system-ontology#Learner"/>
+        <system-ontology:learnerID>l0</system-ontology:learnerID>
+        <system-ontology:name>N0</system-ontology:name>
+        <system-ontology:gender>Male</system-ontology:gender>
+        <system-ontology:age rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">21</system-ontology:age>
+        <system-ontology:qualification>Graduate</system-ontology:qualification>
+        <system-ontology:backgroundKnowledge>Basic</system-ontology:backgroundKnowledge>
+        <system-ontology:active_reflective rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0</system-ontology:active_reflective>
+        <system-ontology:visual_verbal rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1</system-ontology:visual_verbal>
+        <system-ontology:global_sequential rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1</system-ontology:global_sequential>
+        <system-ontology:sensitive_intuitive rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0</system-ontology:sensitive_intuitive>
+    </owl:NamedIndividual>
+
+
+
+    
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/thuha/ontologies/system-ontology#learner-l1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/thuha/ontologies/system-ontology#Learner"/>
+        <system-ontology:learnerID>l1</system-ontology:learnerID>
+        <system-ontology:name>N1</system-ontology:name>
+        <system-ontology:gender>Unknow</system-ontology:gender>
+        <system-ontology:age rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">19</system-ontology:age>
+        <system-ontology:qualification>Graduate</system-ontology:qualification>
+        <system-ontology:backgroundKnowledge>Expert</system-ontology:backgroundKnowledge>
+        <system-ontology:active_reflective rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0</system-ontology:active_reflective>
+        <system-ontology:visual_verbal rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0</system-ontology:visual_verbal>
+        <system-ontology:global_sequential rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0</system-ontology:global_sequential>
+        <system-ontology:sensitive_intuitive rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0</system-ontology:sensitive_intuitive>
+    </owl:NamedIndividual>
+
+
+
+    
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/thuha/ontologies/system-ontology#learner-l2">
+        <rdf:type rdf:resource="http://www.semanticweb.org/thuha/ontologies/system-ontology#Learner"/>
+        <system-ontology:learnerID>l2</system-ontology:learnerID>
+        <system-ontology:name>N2</system-ontology:name>
+        <system-ontology:gender>Male</system-ontology:gender>
+        <system-ontology:age rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">28</system-ontology:age>
+        <system-ontology:qualification>Post-graduate</system-ontology:qualification>
+        <system-ontology:backgroundKnowledge>Intermediate</system-ontology:backgroundKnowledge>
+        <system-ontology:active_reflective rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0</system-ontology:active_reflective>
+        <system-ontology:visual_verbal rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1</system-ontology:visual_verbal>
+        <system-ontology:global_sequential rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1</system-ontology:global_sequential>
+        <system-ontology:sensitive_intuitive rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0</system-ontology:sensitive_intuitive>
+    </owl:NamedIndividual>
+
+
+
+    
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/thuha/ontologies/system-ontology#learner-l3">
+        <rdf:type rdf:resource="http://www.semanticweb.org/thuha/ontologies/system-ontology#Learner"/>
+        <system-ontology:learnerID>l3</system-ontology:learnerID>
+        <system-ontology:name>N3</system-ontology:name>
+        <system-ontology:gender>Unknow</system-ontology:gender>
+        <system-ontology:age rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">24</system-ontology:age>
+        <system-ontology:qualification>Graduate</system-ontology:qualification>
+        <system-ontology:backgroundKnowledge>Basic</system-ontology:backgroundKnowledge>
+        <system-ontology:active_reflective rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0</system-ontology:active_reflective>
+        <system-ontology:visual_verbal rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1</system-ontology:visual_verbal>
+        <system-ontology:global_sequential rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1</system-ontology:global_sequential>
+        <system-ontology:sensitive_intuitive rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0</system-ontology:sensitive_intuitive>
+    </owl:NamedIndividual>
+
+
+
+    
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/thuha/ontologies/system-ontology#learner-l4">
+        <rdf:type rdf:resource="http://www.semanticweb.org/thuha/ontologies/system-ontology#Learner"/>
+        <system-ontology:learnerID>l4</system-ontology:learnerID>
+        <system-ontology:name>N4</system-ontology:name>
+        <system-ontology:gender>Unknow</system-ontology:gender>
+        <system-ontology:age rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">16</system-ontology:age>
+        <system-ontology:qualification>Graduate</system-ontology:qualification>
+        <system-ontology:backgroundKnowledge>Basic</system-ontology:backgroundKnowledge>
+        <system-ontology:active_reflective rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0</system-ontology:active_reflective>
+        <system-ontology:visual_verbal rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1</system-ontology:visual_verbal>
+        <system-ontology:global_sequential rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1</system-ontology:global_sequential>
+        <system-ontology:sensitive_intuitive rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0</system-ontology:sensitive_intuitive>
+    </owl:NamedIndividual>
+
+
+
+    
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/thuha/ontologies/system-ontology#learner-l0">
+        <rdf:type rdf:resource="http://www.semanticweb.org/thuha/ontologies/system-ontology#Learner"/>
+        <system-ontology:learnerID>l0</system-ontology:learnerID>
+        <system-ontology:name>N0</system-ontology:name>
+        <system-ontology:gender>Male</system-ontology:gender>
+        <system-ontology:age rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">21</system-ontology:age>
+        <system-ontology:qualification>Graduate</system-ontology:qualification>
+        <system-ontology:backgroundKnowledge>Basic</system-ontology:backgroundKnowledge>
+        <system-ontology:active_reflective rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0</system-ontology:active_reflective>
+        <system-ontology:visual_verbal rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1</system-ontology:visual_verbal>
+        <system-ontology:global_sequential rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1</system-ontology:global_sequential>
+        <system-ontology:sensitive_intuitive rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0</system-ontology:sensitive_intuitive>
+    </owl:NamedIndividual>
+
+
+
+    
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/thuha/ontologies/system-ontology#learner-l1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/thuha/ontologies/system-ontology#Learner"/>
+        <system-ontology:learnerID>l1</system-ontology:learnerID>
+        <system-ontology:name>N1</system-ontology:name>
+        <system-ontology:gender>Unknow</system-ontology:gender>
+        <system-ontology:age rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">19</system-ontology:age>
+        <system-ontology:qualification>Graduate</system-ontology:qualification>
+        <system-ontology:backgroundKnowledge>Expert</system-ontology:backgroundKnowledge>
+        <system-ontology:active_reflective rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0</system-ontology:active_reflective>
+        <system-ontology:visual_verbal rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0</system-ontology:visual_verbal>
+        <system-ontology:global_sequential rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0</system-ontology:global_sequential>
+        <system-ontology:sensitive_intuitive rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0</system-ontology:sensitive_intuitive>
+    </owl:NamedIndividual>
+
+
+
+    
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/thuha/ontologies/system-ontology#learner-l2">
+        <rdf:type rdf:resource="http://www.semanticweb.org/thuha/ontologies/system-ontology#Learner"/>
+        <system-ontology:learnerID>l2</system-ontology:learnerID>
+        <system-ontology:name>N2</system-ontology:name>
+        <system-ontology:gender>Male</system-ontology:gender>
+        <system-ontology:age rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">28</system-ontology:age>
+        <system-ontology:qualification>Post-graduate</system-ontology:qualification>
+        <system-ontology:backgroundKnowledge>Intermediate</system-ontology:backgroundKnowledge>
+        <system-ontology:active_reflective rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0</system-ontology:active_reflective>
+        <system-ontology:visual_verbal rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1</system-ontology:visual_verbal>
+        <system-ontology:global_sequential rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1</system-ontology:global_sequential>
+        <system-ontology:sensitive_intuitive rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0</system-ontology:sensitive_intuitive>
+    </owl:NamedIndividual>
+
+
+
+    
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/thuha/ontologies/system-ontology#learner-l3">
+        <rdf:type rdf:resource="http://www.semanticweb.org/thuha/ontologies/system-ontology#Learner"/>
+        <system-ontology:learnerID>l3</system-ontology:learnerID>
+        <system-ontology:name>N3</system-ontology:name>
+        <system-ontology:gender>Unknow</system-ontology:gender>
+        <system-ontology:age rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">24</system-ontology:age>
+        <system-ontology:qualification>Graduate</system-ontology:qualification>
+        <system-ontology:backgroundKnowledge>Basic</system-ontology:backgroundKnowledge>
+        <system-ontology:active_reflective rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0</system-ontology:active_reflective>
+        <system-ontology:visual_verbal rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1</system-ontology:visual_verbal>
+        <system-ontology:global_sequential rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1</system-ontology:global_sequential>
+        <system-ontology:sensitive_intuitive rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0</system-ontology:sensitive_intuitive>
+    </owl:NamedIndividual>
+
+
+
+    
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/thuha/ontologies/system-ontology#learner-l4">
+        <rdf:type rdf:resource="http://www.semanticweb.org/thuha/ontologies/system-ontology#Learner"/>
+        <system-ontology:learnerID>l4</system-ontology:learnerID>
+        <system-ontology:name>N4</system-ontology:name>
+        <system-ontology:gender>Unknow</system-ontology:gender>
+        <system-ontology:age rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">16</system-ontology:age>
+        <system-ontology:qualification>Graduate</system-ontology:qualification>
+        <system-ontology:backgroundKnowledge>Basic</system-ontology:backgroundKnowledge>
+        <system-ontology:active_reflective rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0</system-ontology:active_reflective>
+        <system-ontology:visual_verbal rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1</system-ontology:visual_verbal>
+        <system-ontology:global_sequential rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1</system-ontology:global_sequential>
+        <system-ontology:sensitive_intuitive rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0</system-ontology:sensitive_intuitive>
+    </owl:NamedIndividual>
+
+
+
+    
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/thuha/ontologies/system-ontology#learner-l0">
+        <rdf:type rdf:resource="http://www.semanticweb.org/thuha/ontologies/system-ontology#Learner"/>
+        <system-ontology:learnerID>l0</system-ontology:learnerID>
+        <system-ontology:name>N0</system-ontology:name>
+        <system-ontology:gender>Male</system-ontology:gender>
+        <system-ontology:age rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">21</system-ontology:age>
+        <system-ontology:qualification>Graduate</system-ontology:qualification>
+        <system-ontology:backgroundKnowledge>Basic</system-ontology:backgroundKnowledge>
+        <system-ontology:active_reflective rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0</system-ontology:active_reflective>
+        <system-ontology:visual_verbal rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1</system-ontology:visual_verbal>
+        <system-ontology:global_sequential rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1</system-ontology:global_sequential>
+        <system-ontology:sensitive_intuitive rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0</system-ontology:sensitive_intuitive>
+    </owl:NamedIndividual>
+
+
+
+    
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/thuha/ontologies/system-ontology#learner-l1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/thuha/ontologies/system-ontology#Learner"/>
+        <system-ontology:learnerID>l1</system-ontology:learnerID>
+        <system-ontology:name>N1</system-ontology:name>
+        <system-ontology:gender>Unknow</system-ontology:gender>
+        <system-ontology:age rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">19</system-ontology:age>
+        <system-ontology:qualification>Graduate</system-ontology:qualification>
+        <system-ontology:backgroundKnowledge>Expert</system-ontology:backgroundKnowledge>
+        <system-ontology:active_reflective rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0</system-ontology:active_reflective>
+        <system-ontology:visual_verbal rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0</system-ontology:visual_verbal>
+        <system-ontology:global_sequential rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0</system-ontology:global_sequential>
+        <system-ontology:sensitive_intuitive rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0</system-ontology:sensitive_intuitive>
+    </owl:NamedIndividual>
+
+
+
+    
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/thuha/ontologies/system-ontology#learner-l2">
+        <rdf:type rdf:resource="http://www.semanticweb.org/thuha/ontologies/system-ontology#Learner"/>
+        <system-ontology:learnerID>l2</system-ontology:learnerID>
+        <system-ontology:name>N2</system-ontology:name>
+        <system-ontology:gender>Male</system-ontology:gender>
+        <system-ontology:age rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">28</system-ontology:age>
+        <system-ontology:qualification>Post-graduate</system-ontology:qualification>
+        <system-ontology:backgroundKnowledge>Intermediate</system-ontology:backgroundKnowledge>
+        <system-ontology:active_reflective rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0</system-ontology:active_reflective>
+        <system-ontology:visual_verbal rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1</system-ontology:visual_verbal>
+        <system-ontology:global_sequential rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1</system-ontology:global_sequential>
+        <system-ontology:sensitive_intuitive rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0</system-ontology:sensitive_intuitive>
+    </owl:NamedIndividual>
+
+
+
+    
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/thuha/ontologies/system-ontology#learner-l3">
+        <rdf:type rdf:resource="http://www.semanticweb.org/thuha/ontologies/system-ontology#Learner"/>
+        <system-ontology:learnerID>l3</system-ontology:learnerID>
+        <system-ontology:name>N3</system-ontology:name>
+        <system-ontology:gender>Unknow</system-ontology:gender>
+        <system-ontology:age rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">24</system-ontology:age>
+        <system-ontology:qualification>Graduate</system-ontology:qualification>
+        <system-ontology:backgroundKnowledge>Basic</system-ontology:backgroundKnowledge>
+        <system-ontology:active_reflective rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0</system-ontology:active_reflective>
+        <system-ontology:visual_verbal rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1</system-ontology:visual_verbal>
+        <system-ontology:global_sequential rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1</system-ontology:global_sequential>
+        <system-ontology:sensitive_intuitive rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0</system-ontology:sensitive_intuitive>
+    </owl:NamedIndividual>
+
+
+
+    
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/thuha/ontologies/system-ontology#learner-l4">
+        <rdf:type rdf:resource="http://www.semanticweb.org/thuha/ontologies/system-ontology#Learner"/>
+        <system-ontology:learnerID>l4</system-ontology:learnerID>
+        <system-ontology:name>N4</system-ontology:name>
+        <system-ontology:gender>Unknow</system-ontology:gender>
+        <system-ontology:age rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">16</system-ontology:age>
+        <system-ontology:qualification>Graduate</system-ontology:qualification>
+        <system-ontology:backgroundKnowledge>Basic</system-ontology:backgroundKnowledge>
+        <system-ontology:active_reflective rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0</system-ontology:active_reflective>
+        <system-ontology:visual_verbal rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1</system-ontology:visual_verbal>
+        <system-ontology:global_sequential rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1</system-ontology:global_sequential>
+        <system-ontology:sensitive_intuitive rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0</system-ontology:sensitive_intuitive>
+    </owl:NamedIndividual>
+
+
+
+    <!-- // index to add of learner // -->
+
+    
+    
+    
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/thuha/ontologies/system-ontology#learning_log-l4-Document_A">
+        <rdf:type rdf:resource="http://www.semanticweb.org/thuha/ontologies/system-ontology#Learner_Log"/>
+        <system-ontology:learnerID>4</system-ontology:learnerID>
+        <system-ontology:lmID>1</system-ontology:lmID>
+        <system-ontology:name>Document A</system-ontology:name>
+        <system-ontology:score rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">10.0</system-ontology:score>
+        <system-ontology:time rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">20.0</system-ontology:time>
+        <system-ontology:attempt rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2</system-ontology:attempt>
+    </owl:NamedIndividual>
+    
+    
+    
+    
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/thuha/ontologies/system-ontology#learning_log-l3-Document_B">
+        <rdf:type rdf:resource="http://www.semanticweb.org/thuha/ontologies/system-ontology#Learner_Log"/>
+        <system-ontology:learnerID>3</system-ontology:learnerID>
+        <system-ontology:lmID>2</system-ontology:lmID>
+        <system-ontology:lmID>Document B</system-ontology:lmID>
+        <system-ontology:score rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">8.0</system-ontology:score>
+        <system-ontology:time rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">10.0</system-ontology:time>
+        <system-ontology:attempt rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2</system-ontology:attempt>
+    </owl:NamedIndividual>
+    
+    
+    
+    
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/thuha/ontologies/system-ontology#learning_log-l0-Video_B">
+        <rdf:type rdf:resource="http://www.semanticweb.org/thuha/ontologies/system-ontology#Learner_Log"/>
+        <system-ontology:learnerID>l0</system-ontology:learnerID>
+        <system-ontology:lmID>Video B</system-ontology:lmID>
+        <system-ontology:score rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">8.0</system-ontology:score>
+        <system-ontology:time rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">10.0</system-ontology:time>
+        <system-ontology:attempt rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1</system-ontology:attempt>
+    </owl:NamedIndividual>
+    
+    
+    
+    
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/thuha/ontologies/system-ontology#learning_log-l0-Video_A">
+        <rdf:type rdf:resource="http://www.semanticweb.org/thuha/ontologies/system-ontology#Learner_Log"/>
+        <system-ontology:learnerID>l0</system-ontology:learnerID>
+        <system-ontology:lmID>Video A</system-ontology:lmID>
+        <system-ontology:score rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">8.0</system-ontology:score>
+        <system-ontology:time rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">40.0</system-ontology:time>
+        <system-ontology:attempt rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">3</system-ontology:attempt>
+    </owl:NamedIndividual>
+    
+    
+    
+    
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/thuha/ontologies/system-ontology#learning_log-l4-Video_B">
+        <rdf:type rdf:resource="http://www.semanticweb.org/thuha/ontologies/system-ontology#Learner_Log"/>
+        <system-ontology:learnerID>l4</system-ontology:learnerID>
+        <system-ontology:lmID>Video B</system-ontology:lmID>
+        <system-ontology:score rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">9.0</system-ontology:score>
+        <system-ontology:time rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">50.0</system-ontology:time>
+        <system-ontology:attempt rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">7</system-ontology:attempt>
+    </owl:NamedIndividual>
+    
+    
+    
+    
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/thuha/ontologies/system-ontology#learning_log-l2-Document_B">
+        <rdf:type rdf:resource="http://www.semanticweb.org/thuha/ontologies/system-ontology#Learner_Log"/>
+        <system-ontology:learnerID>l2</system-ontology:learnerID>
+        <system-ontology:lmID>Document B</system-ontology:lmID>
+        <system-ontology:score rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">8.0</system-ontology:score>
+        <system-ontology:time rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">20.0</system-ontology:time>
+        <system-ontology:attempt rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4</system-ontology:attempt>
+    </owl:NamedIndividual>
+    
+    
+    
+    
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/thuha/ontologies/system-ontology#learning_log-l3-Document_C">
+        <rdf:type rdf:resource="http://www.semanticweb.org/thuha/ontologies/system-ontology#Learner_Log"/>
+        <system-ontology:learnerID>l3</system-ontology:learnerID>
+        <system-ontology:lmID>Document C</system-ontology:lmID>
+        <system-ontology:score rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">8.0</system-ontology:score>
+        <system-ontology:time rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">20.0</system-ontology:time>
+        <system-ontology:attempt rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4</system-ontology:attempt>
+    </owl:NamedIndividual>
+    
+    
+    
+    
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/thuha/ontologies/system-ontology#learning_log-l2-Code_B">
+        <rdf:type rdf:resource="http://www.semanticweb.org/thuha/ontologies/system-ontology#Learner_Log"/>
+        <system-ontology:learnerID>l2</system-ontology:learnerID>
+        <system-ontology:lmID>Code B</system-ontology:lmID>
+        <system-ontology:score rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">8.0</system-ontology:score>
+        <system-ontology:time rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">20.0</system-ontology:time>
+        <system-ontology:attempt rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4</system-ontology:attempt>
+    </owl:NamedIndividual>
+    
+    
+    
+    
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/thuha/ontologies/system-ontology#learning_log-l0-Code_C">
+        <rdf:type rdf:resource="http://www.semanticweb.org/thuha/ontologies/system-ontology#Learner_Log"/>
+        <system-ontology:learnerID>l0</system-ontology:learnerID>
+        <system-ontology:lmID>Code C</system-ontology:lmID>
+        <system-ontology:score rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">8.0</system-ontology:score>
+        <system-ontology:time rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">20.0</system-ontology:time>
+        <system-ontology:attempt rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4</system-ontology:attempt>
+    </owl:NamedIndividual>
+    
+    
+    
+    <!-- // index to add of learner log // -->
+
+    
+    
+    
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/thuha/ontologies/system-ontology#learning_material-Document_A">
+        <rdf:type rdf:resource="http://www.semanticweb.org/thuha/ontologies/system-ontology#Learning_Material"/>
+        <system-ontology:difficulty rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.4</system-ontology:difficulty>
+        <system-ontology:learning_resouce_type>pdf</system-ontology:learning_resouce_type>
+        <system-ontology:lmID>1</system-ontology:lmID>
+        <system-ontology:name>Document A</system-ontology:name>
+        <system-ontology:material_ratings rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">3</system-ontology:material_ratings>
+        <system-ontology:score rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">10.0</system-ontology:score>
+        <system-ontology:time rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">30.0</system-ontology:time>
+        <system-ontology:topic>K-Means Clustering</system-ontology:topic>
+    </owl:NamedIndividual>
+    
+    
+    
+    
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/thuha/ontologies/system-ontology#learning_material-Document_B">
+        <rdf:type rdf:resource="http://www.semanticweb.org/thuha/ontologies/system-ontology#Learning_Material"/>
+        <system-ontology:difficulty rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.5</system-ontology:difficulty>
+        <system-ontology:learning_resouce_type>pdf</system-ontology:learning_resouce_type>
+        <system-ontology:lmID>2</system-ontology:lmID>
+        <system-ontology:name>Document B</system-ontology:name>
+        <system-ontology:material_ratings rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4</system-ontology:material_ratings>
+        <system-ontology:score rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">10.0</system-ontology:score>
+        <system-ontology:time rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">30.0</system-ontology:time>
+        <system-ontology:topic>K-Means Clustering</system-ontology:topic>
+    </owl:NamedIndividual>
+    
+    
+    
+    
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/thuha/ontologies/system-ontology#learning_material-Video_A">
+        <rdf:type rdf:resource="http://www.semanticweb.org/thuha/ontologies/system-ontology#Learning_Material"/>
+        <system-ontology:difficulty rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.6</system-ontology:difficulty>
+        <system-ontology:learning_resouce_type>video</system-ontology:learning_resouce_type>
+        <system-ontology:lmID>Video A</system-ontology:lmID>
+        <system-ontology:material_ratings rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">5</system-ontology:material_ratings>
+        <system-ontology:score rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">10.0</system-ontology:score>
+        <system-ontology:time rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">30.0</system-ontology:time>
+        <system-ontology:topic>DBSCAN</system-ontology:topic>
+    </owl:NamedIndividual>
+    
+    
+    
+    
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/thuha/ontologies/system-ontology#learning_material-Video_B">
+        <rdf:type rdf:resource="http://www.semanticweb.org/thuha/ontologies/system-ontology#Learning_Material"/>
+        <system-ontology:difficulty rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.6</system-ontology:difficulty>
+        <system-ontology:learning_resouce_type>video</system-ontology:learning_resouce_type>
+        <system-ontology:lmID>Video B</system-ontology:lmID>
+        <system-ontology:material_ratings rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">3</system-ontology:material_ratings>
+        <system-ontology:score rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">10.0</system-ontology:score>
+        <system-ontology:time rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">30.0</system-ontology:time>
+        <system-ontology:topic>DBSCAN</system-ontology:topic>
+    </owl:NamedIndividual>
+    
+    
+    
+    
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/thuha/ontologies/system-ontology#learning_material-Code_A">
+        <rdf:type rdf:resource="http://www.semanticweb.org/thuha/ontologies/system-ontology#Learning_Material"/>
+        <system-ontology:difficulty rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.3</system-ontology:difficulty>
+        <system-ontology:learning_resouce_type>code</system-ontology:learning_resouce_type>
+        <system-ontology:lmID>Code A</system-ontology:lmID>
+        <system-ontology:material_ratings rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2</system-ontology:material_ratings>
+        <system-ontology:score rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">10.0</system-ontology:score>
+        <system-ontology:time rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">30.0</system-ontology:time>
+        <system-ontology:topic>DBSCAN</system-ontology:topic>
+    </owl:NamedIndividual>
+    
+    
+    
+    
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/thuha/ontologies/system-ontology#learning_material-Document_C">
+        <rdf:type rdf:resource="http://www.semanticweb.org/thuha/ontologies/system-ontology#Learning_Material"/>
+        <system-ontology:difficulty rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.3</system-ontology:difficulty>
+        <system-ontology:learning_resouce_type>word</system-ontology:learning_resouce_type>
+        <system-ontology:lmID>Document C</system-ontology:lmID>
+        <system-ontology:material_ratings rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4</system-ontology:material_ratings>
+        <system-ontology:score rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">10.0</system-ontology:score>
+        <system-ontology:time rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">30.0</system-ontology:time>
+        <system-ontology:topic>Matrices and linear algebra fundamentals</system-ontology:topic>
+    </owl:NamedIndividual>
+    
+    
+    
+    
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/thuha/ontologies/system-ontology#learning_material-Code_B">
+        <rdf:type rdf:resource="http://www.semanticweb.org/thuha/ontologies/system-ontology#Learning_Material"/>
+        <system-ontology:difficulty rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.3</system-ontology:difficulty>
+        <system-ontology:learning_resouce_type>code</system-ontology:learning_resouce_type>
+        <system-ontology:lmID>Code B</system-ontology:lmID>
+        <system-ontology:material_ratings rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2</system-ontology:material_ratings>
+        <system-ontology:score rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">10.0</system-ontology:score>
+        <system-ontology:time rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">30.0</system-ontology:time>
+        <system-ontology:topic>Matrices and linear algebra fundamentals</system-ontology:topic>
+    </owl:NamedIndividual>
+    
+    
+    
+    
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/thuha/ontologies/system-ontology#learning_material-Document_D">
+        <rdf:type rdf:resource="http://www.semanticweb.org/thuha/ontologies/system-ontology#Learning_Material"/>
+        <system-ontology:difficulty rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.3</system-ontology:difficulty>
+        <system-ontology:learning_resouce_type>word</system-ontology:learning_resouce_type>
+        <system-ontology:lmID>Document D</system-ontology:lmID>
+        <system-ontology:material_ratings rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2</system-ontology:material_ratings>
+        <system-ontology:score rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">10.0</system-ontology:score>
+        <system-ontology:time rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">30.0</system-ontology:time>
+        <system-ontology:topic>Data mining</system-ontology:topic>
+    </owl:NamedIndividual>
+    
+    
+    
+    
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/thuha/ontologies/system-ontology#learning_material-Video_C">
+        <rdf:type rdf:resource="http://www.semanticweb.org/thuha/ontologies/system-ontology#Learning_Material"/>
+        <system-ontology:difficulty rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.3</system-ontology:difficulty>
+        <system-ontology:learning_resouce_type>video</system-ontology:learning_resouce_type>
+        <system-ontology:lmID>Video C</system-ontology:lmID>
+        <system-ontology:material_ratings rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2</system-ontology:material_ratings>
+        <system-ontology:score rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">10.0</system-ontology:score>
+        <system-ontology:time rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">30.0</system-ontology:time>
+        <system-ontology:topic>HDBSCAN</system-ontology:topic>
+    </owl:NamedIndividual>
+    
+    
+    
+    
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/thuha/ontologies/system-ontology#learning_material-Code_C">
+        <rdf:type rdf:resource="http://www.semanticweb.org/thuha/ontologies/system-ontology#Learning_Material"/>
+        <system-ontology:difficulty rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.3</system-ontology:difficulty>
+        <system-ontology:learning_resouce_type>code</system-ontology:learning_resouce_type>
+        <system-ontology:lmID>Code C</system-ontology:lmID>
+        <system-ontology:material_ratings rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2</system-ontology:material_ratings>
+        <system-ontology:score rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">10.0</system-ontology:score>
+        <system-ontology:time rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">30.0</system-ontology:time>
+        <system-ontology:topic>Machine Learning</system-ontology:topic>
+    </owl:NamedIndividual>
+    
+    
+    
+    
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/thuha/ontologies/system-ontology#learning_material-Video_D">
+        <rdf:type rdf:resource="http://www.semanticweb.org/thuha/ontologies/system-ontology#Learning_Material"/>
+        <system-ontology:difficulty rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.3</system-ontology:difficulty>
+        <system-ontology:learning_resouce_type>video</system-ontology:learning_resouce_type>
+        <system-ontology:lmID>Video D</system-ontology:lmID>
+        <system-ontology:material_ratings rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2</system-ontology:material_ratings>
+        <system-ontology:score rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">10.0</system-ontology:score>
+        <system-ontology:time rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">30.0</system-ontology:time>
+        <system-ontology:topic>Machine Learning</system-ontology:topic>
+    </owl:NamedIndividual>
+    
+    
+    
+    <!-- // index to add of learning material // -->
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.26.2023-07-17T20:34:13Z) https://github.com/owlcs/owlapi -->
