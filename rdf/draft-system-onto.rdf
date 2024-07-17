@@ -389,8 +389,9 @@
         <rdf:type rdf:resource="http://www.semanticweb.org/thuha/ontologies/system-ontology#Learning_Material"/>
         <system-ontology:difficulty rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.4</system-ontology:difficulty>
         <system-ontology:learning_resouce_type>pdf</system-ontology:learning_resouce_type>
-        <system-ontology:lmID>1</system-ontology:lmID>
-        <system-ontology:name>Document A</system-ontology:name>
+        <!-- <system-ontology:lmID>1</system-ontology:lmID>
+        <system-ontology:name>Document A</system-ontology:name> -->
+        <system-ontology:lmID>Document A</system-ontology:lmID>
         <system-ontology:material_ratings rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">3</system-ontology:material_ratings>
         <system-ontology:score rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">10.0</system-ontology:score>
         <system-ontology:time rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">30.0</system-ontology:time>
@@ -404,8 +405,9 @@
         <rdf:type rdf:resource="http://www.semanticweb.org/thuha/ontologies/system-ontology#Learning_Material"/>
         <system-ontology:difficulty rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.5</system-ontology:difficulty>
         <system-ontology:learning_resouce_type>pdf</system-ontology:learning_resouce_type>
-        <system-ontology:lmID>2</system-ontology:lmID>
-        <system-ontology:name>Document B</system-ontology:name>
+        <!-- <system-ontology:lmID>2</system-ontology:lmID>
+        <system-ontology:name>Document B</system-ontology:name> -->
+        <system-ontology:lmID>Document B</system-ontology:lmID>
         <system-ontology:material_ratings rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4</system-ontology:material_ratings>
         <system-ontology:score rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">10.0</system-ontology:score>
         <system-ontology:time rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">30.0</system-ontology:time>

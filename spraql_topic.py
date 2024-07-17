@@ -44,6 +44,7 @@ class SpraqlTopic:
 
             qres = self.g.query(sparql_query)
             for row in qres:
+                print(row)
                 if row["topicID"].value != 'None':
                     self.DFS([row["topicID"].value] + stack,
                              path + [row["topicID"].value], paths)

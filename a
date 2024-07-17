@@ -1,0 +1,31 @@
+sparql_query = f"""
+            PREFIX owl: <http://www.w3.org/2002/07/owl#>
+            PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+            PREFIX xml: <http://www.w3.org/XML/1998/namespace>
+            PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+            PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+            PREFIX onto: <http://www.semanticweb.org/thuha/ontologies/system-ontology#>
+            BASE <http://www.semanticweb.org/thuha/ontologies/system-ontology/>
+            SELECT *
+            WHERE
+            {{
+                ?learner onto:qualification "{learningStyle.qualification}".
+                ?learner onto:backgroundKnowledge "{learningStyle.backgroundKnowledge}".
+                ?learner onto:active_reflective "{learningStyle.active_reflective}".
+                ?learner onto:visual_verbal "{learningStyle.visual_verbal}".
+                ?learner onto:sequential_global "{learningStyle.global_sequential}".
+                ?learner onto:sensitive_intuitive "{learningStyle.sensitive_intuitive}".
+                ?learner onto:learnerID ?learnerID.
+                ?log onto:learnerID ?learnerID.
+                ?log onto:lmID ?lmID.
+                ?log onto:attempt ?attempt.
+                ?log onto:score ?score.
+                ?log onto:time ?time.
+                ?lm onto:lmID ?lmID.
+                ?lm onto:material_ratings ?rating.
+                ?lm onto:topic ?topicID.
+                ?lm onto:score ?maxScore.
+                ?lm onto:time ?maxTime.
+                ?lm onto:difficulty ?difficulty.
+            }}
+        """

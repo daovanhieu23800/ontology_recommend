@@ -55,6 +55,7 @@ class SpraqlLM:
         return lms
 
     def spraql_lm(self, learningStyle):
+        #(learningStyle.active_reflective)
         result = []
         sparql_query = f"""
             PREFIX owl: <http://www.w3.org/2002/07/owl#>
@@ -69,10 +70,10 @@ class SpraqlLM:
             {{
                 ?learner onto:qualification "{learningStyle.qualification}".
                 ?learner onto:backgroundKnowledge "{learningStyle.backgroundKnowledge}".
-                ?learner onto:active_reflective "{learningStyle.active_reflective}".
-                ?learner onto:visual_verbal "{learningStyle.visual_verbal}".
-                ?learner onto:sequential_global "{learningStyle.global_sequential}".
-                ?learner onto:sensitive_intuitive "{learningStyle.sensitive_intuitive}".
+                ?learner onto:active_reflective "{learningStyle.active_reflective}"^^xsd:decimal.
+                ?learner onto:visual_verbal "{learningStyle.visual_verbal}"^^xsd:decimal.
+                ?learner onto:global_sequential "{learningStyle.global_sequential}"^^xsd:decimal.
+                ?learner onto:sensitive_intuitive "{learningStyle.sensitive_intuitive}"^^xsd:decimal.
                 ?learner onto:learnerID ?learnerID.
                 ?log onto:learnerID ?learnerID.
                 ?log onto:lmID ?lmID.
@@ -99,7 +100,7 @@ class SpraqlLM:
                 topics[topic] = []
 
             for row in qres:
-                print('row', 2, row)
+                print(row['learnerID'], row['lmID'], row['topicID'])
                 if row["topicID"].value not in topics:
                     continue
 
@@ -133,7 +134,8 @@ class SpraqlLM:
                     1.0 - aTime/lms[lm]["maxTime"]) + 0.3*(1.0 - aAttempt) - lms[lm]["difficulty"])
                 topics[lms[lm]["topic"]
                        ] += [(lms[lm]["rating"], similarity, lm)]
-
+            print(lms, '\n')
+            print(topics,'\n')
             recommendTopicMaterial = []
             # print(topics)
             for topic in topics:
@@ -151,8 +153,8 @@ class SpraqlLM:
                     "topic": topic,
                     "learning_material": None if topics[topic] == [] else topics[topic][0][2]
                 }]
-                # recommendTopicMaterial += [None if topics[topic] == [] else int(topics[topic][0][2])]
-
+                #recommendTopicMaterial += [None if topics[topic] == [] else int(topics[topic][0][2])]
+            print(topics, '\n')
             result += [[recommendTopicMaterial]]
 
         return result
